@@ -30,13 +30,16 @@ a.btn {
 h2 {
   font-size: 3rem;
 }
+h3 {
+  font-size: 2rem;
+}
 h4 {
   font-size: 1.5rem;
 }
-span {
+.orange-color {
   color: orange;
 }
-section {
+.flex-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -62,4 +65,28 @@ section {
 }
 .dream-big img {
   width: 80%;
+}
+.dream-big p {
+  padding-right: 75px;
+}
+.skill {
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px gray;
+  padding: 20px;
+}
+.full-stack {
+  border-left: 10px solid;
+  border-image: linear-gradient(tomato, salmon);
+  border-image-slice: 1;
+}
+.baby-developer {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.exprience-area {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
 }
